@@ -14,7 +14,7 @@ module.exports = {
 				, timestamps: true
 			}
 			, host: '127.0.0.1'
-			, logging: true
+			, logging: console.log
 		}
 	}
 };
