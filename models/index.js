@@ -27,6 +27,6 @@ db.query('SET FOREIGN_KEY_CHECKS = 0')
 .then(function(){
 	console.log('Database synchronised.');
 });
-
 */
+
 module.exports.db = db;
