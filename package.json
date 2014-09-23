@@ -1,0 +1,29 @@
+{
+  "name": "sequelize-aop",
+  "version": "0.0.0",
+  "description": "Sequelize AOP Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichAyotte/sequelize-aop.git"
+  },
+  "keywords": [
+    "sequelize",
+    "aop",
+    "test"
+  ],
+  "author": "Richard Ayotte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichAyotte/sequelize-aop/issues"
+  },
+  "dependencies": {
+    "config": "^1.2.0",
+    "dcl": "^1.1.1",
+    "mysql": "^2.5.1",
+    "sequelize": "^2.0.0-rc1"
+  }
+}

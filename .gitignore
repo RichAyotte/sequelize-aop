@@ -1,0 +1,20 @@
+# Node
+node_modules
+npm-debug.log
+
+# Vim swp files and gedit temp files
+*.swp
+*.*~
+.vim
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Sauce Labs log file
+sauce_connect.log
+
+# Config
+config/development.js
+config/test.js
+config/production.js
