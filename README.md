@@ -30,5 +30,6 @@ Don't forget to re-comment unless you want the tables to be re-created everytime
 Run the examples
 
 ```sh
-node index.js
+node tests/instance.js
+node tests/model.js
 ```
