@@ -5,7 +5,7 @@
 'use strict';
 
 var advise = require('dcl/advise')
-	, User = require('../models').User
+	, User = require('../../models').User
 ;
 
 var user = {
