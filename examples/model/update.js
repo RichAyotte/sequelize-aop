@@ -27,11 +27,13 @@ advise.after(User, 'update', function(args, result) {
 	var where = args[1];
 	var options = args[2];
 
-	console.log('Running after bulk update');
-	if (options && options.individualHooks) {
-		console.log('running after update');
-	}
-	return result;
+	return result
+	.then(function(){
+		console.log('Running after bulk update');
+		if (options && options.individualHooks) {
+			console.log('running after update');
+		}
+	});
 });
 
 // Around
